@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Coccinella-Labs/browser/main/.github/assets/thumbnail.png" alt="browser" width="100%">
+</p>
+
 | `lint` | `flutter` |
 |:--------- |:------------ |
 | [![Lint](https://github.com/bniladridas/browser/actions/workflows/lint.yml/badge.svg)](https://github.com/bniladridas/browser/actions/workflows/lint.yml) | [![Flutter](https://github.com/bniladridas/browser/actions/workflows/flutter.yml/badge.svg)](https://github.com/bniladridas/browser/actions/workflows/flutter.yml) |
