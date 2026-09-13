@@ -109,13 +109,13 @@
     "remove unused rebuild key from BrowserPage."
   ],
   "1.15.9": [
-    "replace inline shell/Python script with libnudget/echo action for issue similarity."
+    "replace inline shell/Python script with coccinella-labs/echo action for issue similarity."
   ],
   "1.15.10": [
     "extract bump-version inline scripts to separate shell files."
   ],
   "1.15.11": [
-    "replace local bump-version action with libnudget/bump@main."
+    "replace local bump-version action with coccinella-labs/bump@main."
   ],
   "1.15.12": [
     "remove local bump-version action."
@@ -124,7 +124,7 @@
     "improve url tracking for google login and youtube."
   ],
   "1.15.14": [
-    "replace inline auto-label script with libnudget actions."
+    "replace inline auto-label script with coccinella-labs actions."
   ],
   "1.15.15": [
     "checkout step to auto-label workflow."

@@ -27,7 +27,7 @@ jobs:
           permission-issues: write
           permission-contents: read
 
-      - uses: libnudget/echo@main
+      - uses: coccinella-labs/echo@main
         with:
           github_token: ${{ steps.app-token.outputs.token }}
           repository: ${{ github.repository }}

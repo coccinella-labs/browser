@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   nightly:
-    uses: libnudget/nightly/.github/workflows/nightly.yml@main
+    uses: coccinella-labs/nightly/.github/workflows/nightly.yml@main
     with:
       flutter-version: '3.44.0'
       tag-prefix: 'desktop/nightly-'
