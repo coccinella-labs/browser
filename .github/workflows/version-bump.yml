@@ -39,7 +39,7 @@ jobs:
           fetch-tags: true
           token: ${{ steps.app-token.outputs.token }}
 
-      - uses: libnudget/bump@main
+      - uses: coccinella-labs/bump@main
         with:
           pr-number: ${{ github.event.pull_request.number }}
           token: ${{ steps.app-token.outputs.token }}

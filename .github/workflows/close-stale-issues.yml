@@ -30,7 +30,7 @@ jobs:
           permission-issues: write
           permission-contents: read
 
-      - uses: libnudget/stale@v1
+      - uses: coccinella-labs/stale@v1
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}

@@ -32,7 +32,7 @@ jobs:
           permission-pull-requests: write
           permission-contents: read
 
-      - uses: libnudget/auto-label@v2
+      - uses: coccinella-labs/auto-label@v2
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
